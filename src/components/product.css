@@ -1,0 +1,38 @@
+
+.product{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+height: 600px;
+
+}
+.product-img{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+img{
+  width: 100%;
+  height: 300px;
+}
+.product-details{
+  text-align: center;
+}
+.product-details h2{
+  margin: 8px;
+}
+.product-details button{
+  margin: 10px;
+  width: 80%;
+  padding: 15px;
+  background-color: var(--bg-color2);
+  border: none;
+  color: var(--main-color);
+  font-size: 18px;
+  border-radius: 6px;
+  cursor: pointer;
+}
